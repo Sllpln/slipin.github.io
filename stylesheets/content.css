@@ -1,0 +1,372 @@
+body {
+  cursor: url('img/curpigcoin.svg'),
+  url('img/curpigcoin.png'),
+  url('img/curpigcoin.jpg'), auto;
+}
+
+.back {
+  background-color: white;
+  width: 100vw;
+  height: 254vw;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.main {
+  width: 100%;
+  height: 84vw;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+
+#mainscreen {
+
+  width: 100vw;
+  max-width: 100%;
+  height: 84vw;
+  top: 0vw;
+  left: 0vw;
+  display: flex;
+
+  margin: 0 auto;
+  position: relative;}
+
+#sunpi {
+
+  width: 59vw;
+  max-width: 100%;
+  height: 57vw;
+  top: -27vw;
+  left: -126vw;
+  display: flex;
+  z-index: 200;
+
+  margin: 0 auto;
+  position: relative;
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;}
+
+  @keyframes rotation {
+        0% {transform:rotate(0deg);}
+        100% {transform:rotate(-360deg);}
+        }
+
+
+#sungr {
+
+  width: 59vw;
+  max-width: 100%;
+  height: 57vw;
+  top: -40.5vw;
+  left: -29vw;
+  display: flex;
+
+  margin: 0 auto;
+  position: relative;
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;}
+
+  @keyframes rotation {
+        0% {transform:rotate(0deg);}
+        100% {transform:rotate(-360deg);}
+        }
+
+.name1 {
+    width: 51vw;
+    max-width: 100%;
+    height: 19vw;
+    top: 15vw;
+    left: 24.5vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding:0;
+    display: flex;
+}
+
+.name2 {
+    width: 48vw;
+    max-width: 100%;
+    height: 17vw;
+    top: 16vw;
+    left: 26vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding:0;
+    display: flex;
+}
+
+.name1 {
+opacity:0.1vw;
+display:block;
+position:absolute;
+z-index:100;
+transition-duration:0.2s;
+}
+
+.name1:hover {
+opacity:0.00;
+}
+
+.drops {
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+
+#dropspi {
+
+  width: 58vw;
+  height: 1.4vw;
+  top: 9vw;
+  left: 76vw;
+  margin: 0;
+  position: absolute;
+  display: flex;
+
+  animation: go-right-left 0.5s infinite alternate;
+  }
+
+          @keyframes go-right-left {
+            from { right: -30px; }
+            to { left: calc(95% - 91.8vw); }
+          }
+
+
+#dropsgr {
+
+  width: 58vw;
+  height: 1.4vw;
+  left: 4vw;
+  top: 38.5vw;
+  margin: 0;
+  position: absolute;
+  display: flex;
+
+  animation: go-left-right 0.5s infinite alternate;
+  }
+
+          @keyframes go-left-right {
+            from { left: -100px; }
+            to { right: calc(95% - 91.8vw); }
+          }
+
+#flags1 {
+  width: 86vw;
+  height: 59vw;
+  max-width: 100%;
+  top: 44vw;
+  margin: 0;
+  position: absolute;
+  display: flex;
+
+}
+
+#vector1 {
+  width: 70vw;
+  max-width: 100%;
+  height: 7vw;
+  top: 1.5vw;
+  left: 35vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+
+  animation: go-right-left 0.7s infinite alternate;
+  }
+
+          @keyframes go-right-left {
+            from { left: 27vw; }
+            to { left: calc(108% - 70.8vw); }
+          }
+
+#flags2 {
+  width: 100vw;
+  height: 9.06vw;
+  max-width: 100%;
+  top: 3.5vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+
+}
+
+.screen {
+  width: 96vw;
+  max-width: 100%;
+  height: 37vw;
+  top: 8vw;
+  left: 4vw;
+  background-color: black;
+  border-radius: 1.7vw 0 0 1.7vw;
+  margin: 0 auto;
+  position: relative;
+    display: inline-block;
+}
+
+#wtf {
+  width: 84vw;
+  height: 27vw;
+  max-width: 100%;
+  left: 7.9vw;
+  top: 4.5vw;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+
+}
+
+#redux2 {
+  width: 94vw;
+  height: 32vw;
+  max-width: 100%;
+  left: 3vw;
+  opacity: 100%;
+  top: 2.4vw;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  transition-duration:0.5s;
+  }
+
+  #redux2:hover {
+  opacity:0.00;
+  }
+
+
+
+.screen1 {
+  width: 96vw;
+  max-width: 100%;
+  height: 37vw;
+  top: 15.6vw;
+  background-color: black;
+  border-radius: 0 1.7vw 1.7vw 0;
+  margin: 0 auto;
+  position: relative;
+    display: inline-block;
+}
+
+#vector2 {
+  width: 92vw;
+  max-width: 100%;
+  height: 7vw;
+  top: 11vw;
+  left: 3vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+
+  animation: go-left-right 0.5s infinite alternate;
+  }
+
+          @keyframes go-left-right {
+            from { left: 80px; }
+            to { left: calc(95% - 91.8vw); }
+          }
+
+#poorpigoamigo {
+  width: 26.4vw;
+  max-width: 100%;
+  height: 31vw;
+  top: 2.5vw;
+  left: 4vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+  animation: scroll 4s infinite linear;
+}
+/* хехе амиго хехе */
+
+  @keyframes scroll{
+    0% {transform: translate(-110%, 0);}
+    100% {transform: translate(240%, 0);}
+  }
+
+
+#lines {
+  width: 66vw;
+  max-width: 100%;
+  height: 0.7vw;
+  top: 1.4vw;
+  left: 26vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+}
+
+#flags3 {
+  width: 111vw;
+  height: 8vw;
+  max-width: 100%;
+  top: 19vw;
+  margin: 0;
+  position: relative;
+  display: flex;
+
+}
+
+.screen2 {
+  width: 93vw;
+  max-width: 100%;
+  height: 37vw;
+  top: 22.5vw;
+  left: 0.4vw;
+  background-color: black;
+  border-radius: 1.7vw 1.7vw 1.7vw 1.7vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+#floor {
+  width: 90vw;
+  height: 32vw;
+  max-width: 100%;
+  left: 1.3vw;
+  opacity: 60%;
+  top: 2.3vw;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
+
+#coins {
+  width: 90vw;
+  height: 32vw;
+  max-width: 100%;
+  left: 1.3vw;
+  opacity: 100%;
+  top: 2.3vw;
+  margin: 0;
+  opacity:0.1vw;
+  display:flex;
+  position:absolute;
+  z-index:2;
+  transition-duration:0.5s;
+  }
+
+  #coins:hover {
+  opacity:0.00;
+  }
+
+#foot {
+  width: 100vw;
+  max-width: 100%;
+  height: 14.5vw;
+  display: flex;
+}
